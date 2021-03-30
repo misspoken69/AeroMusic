@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const keepAlive = require('./server.js')
 
 app.listen(() => console.log('Misspoken Music Bot!'));
 
@@ -37,5 +38,5 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
-
+keepAlive();
 client.login(config.token);
