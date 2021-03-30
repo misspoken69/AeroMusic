@@ -1,5 +1,5 @@
 const config = {
-    token: 'ODI2NTIxMzgyMzU5NDAwNTE5.YGNsBQ.d0cDvbloyNisJ4SfXdjkfwWCWco',
+    token: 'Did you really just try to steal my bot token? Smh!',
     prefix: 'a!'
 }
 module.exports = config;
